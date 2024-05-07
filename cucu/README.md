@@ -1,4 +1,5 @@
 LEXER DETAILS:
+
 Supported tokens: 
 Arithmetic operators (+, -, , /), comparison operators (==, !=, <, >, <=, >=), assignment (=), semicolon (;), logical AND (&), data types (int, char), keywords (main, if, else, while), comma (,), return, parentheses (), curly braces {}, square brackets [], comments (ignored), identifiers (letters, digits, underscores), and numeric literals.
 
@@ -34,10 +35,12 @@ The %left and %right directives specify the associativity and precedence of oper
 
 
 Start Symbol:
+
 %start intiate_program: Declares intiate_program as the starting symbol for the grammar.
 
 
 Grammar Rules:
+
 The code defines several grammar rules using Yacc constructs:
 rule_name : alternatives { semantic actions } ;
 rule_name is the name of the grammar rule.
@@ -46,13 +49,17 @@ semantic actions are C code snippets executed when a rule is matched. These acti
 
 
 Grammar Details:
+
 intiate_program: This rule simply marks the end of the program.
-program: This rule defines various structures a program can have, including variable declarations, function definitions, and the main function. Semantic actions print informative messages about the parsed program structure.
+program: This rule defines various structures a program can have, including variable declarations, function definitions, and the main function.
+Semantic actions print informative messages about the parsed program structure.
 variable_declarations: Defines rules for variable declarations, including single variables, comma-separated lists, and arrays (with or without size).
+
 main_func: Defines rules for the main function, allowing for various argument lists and variable declarations within the function body.
 function_declaration, function_definition: Define function declarations and definitions, respectively.
 function_arguments, parameter_list, parameter: Define function arguments and parameter lists, including handling arrays as parameters.
 TYPE: Defines the two data types supported (int and char).
+
 statements: Defines a statement as either a compound statement (if, while), an assignment, a function call, or a single expression.
 return_statement: Defines the structure of a return statement.
 compound_statement: Defines if-else and while loop statements.
