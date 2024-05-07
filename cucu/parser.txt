@@ -1,0 +1,53 @@
+TYPE: int 
+TYPE: int 
+identifier: r 
+fucntion arguments ends here.
+Function Declaration of fucn ends
+
+TYPE: int 
+TYPE: int 
+identifier: r 
+fucntion arguments ends here.
+number : 0
+
+identifier: return statement parsed.
+Function Definition is of id: 
+TYPE: int 
+TYPE: int 
+identifier: argc 
+TYPE: char * 
+identifier: argv 
+fucntion arguments ends here.
+TYPE: int 
+number : 2
+number : 3
+operator: * operator: = 
+TYPE: char * 
+identifier: s 
+TYPE: int 
+identifier: nav 
+identifier : i
+identifier : i
+number : 2
+operator: == identifier : i
+number : 2
+operator: + fucntion call : fucnfucntion call 
+identifier : i
+number : 12
+
+identifier: return statement parsed.
+conditional-statement: while loop ends here  
+number : 0
+
+identifier: return statement parsed.
+statement parsed.
+statement parsed.
+statement parsed.
+statement parsed.
+statement parsed.
+this is main identifier :main
+
+function declaration,definition and main fucntion is parsed 
+
+
+program  end.
